@@ -110,7 +110,11 @@ function App() {
             <img src="/f11.png" alt="Page 11" />
           </div>
         </Flipbook>
-        <span className="description">The adventures of sunny the solar flare - stellar stories</span>
+        <span className="description1">THE ADVENTURES OF SUNNY THE SOLAR FLARE - STELLAR STORIES </span> <br />
+        <span className="description">"The Adventures of Sunny the Solar Flare,"* a digital comic designed to meet the *NASA Space Apps Challenge: Stellar Stories* mandate.
+          We created an engaging, narrative-driven comic following Sunny, a solar flare, on his journey toward Earth. This approach successfully demystifies complex space weather concepts (flares, CMEs, magnetosphere) for a general audience.
+          Our project directly addresses the challenge by visually illustrating the *varying impacts* on five specific groups: *pilots, astronauts, power grid operators, farmers, and the general public.* By making the scientific event the central character, we offer an accessible and creative educational tool.
+          The project is crucial because space weather poses a continuous threat to our technology-dependent world. Effective communication is the first step toward resilience, and our comic provides an imaginative, easy-to-digest narrative necessary for raising public awareness and preparedness.</span>
       </div>
     </>
   );

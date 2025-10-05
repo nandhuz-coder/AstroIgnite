@@ -30,7 +30,7 @@
     margin-right: 24px;
     padding: 10px 22px;
     font-size: 1em;
-    background: #ff9901;
+    background: #11e6f5;
     color: #fff;
     border: none;
     border-radius: 6px;
@@ -47,15 +47,17 @@
 .app-container {
     text-align: center;
     margin-top: 110px;
+    padding-bottom: 50px;
 }
 
 .title {
-    color: linear-gradient(#fde616ee, #ff9901);
     font-size: 2.5em;
     margin-bottom: 20px;
     font-weight: bold;
-    background: -webkit-linear-gradient(#fde616ee, #ff9901);
+    background: linear-gradient(to bottom, #fde616ee, #ff9901);
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .magazine {
@@ -80,12 +82,26 @@
 }
 
 .magazine .turn-page {
-    background-color: #ffffff00;
+    background-color: transparent;
+}
+
+.description1 {
+    display: block;
+    color: rgb(255, 187, 0);
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .description {
+    display: block;
     color: white;
     font-weight: bold;
+    padding: 20px 50px;
     font-size: 1.2em;
-    margin-top: 20px;
+    line-height: 1.8;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
 }
